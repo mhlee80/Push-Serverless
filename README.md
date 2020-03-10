@@ -1,5 +1,6 @@
 # Push
 
+```
 $ npm init
 
 $ npm install --save-dev serverless
@@ -9,4 +10,4 @@ $ echo "PATH_add $PWD/node_modules/.bin/" > .envrc # direnv 설정 (serverless c
 $ direnv allow
 
 $ serverless create --template aws-nodejs
-
+```
